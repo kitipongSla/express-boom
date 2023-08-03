@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.boomMiddleware = void 0;
 const boom_1 = __importDefault(require("@hapi/boom"));
 const helperMethods = ['wrap', 'create'];
 function boomMiddleware() {
@@ -29,4 +30,5 @@ function boomMiddleware() {
         next();
     };
 }
+exports.boomMiddleware = boomMiddleware;
 exports.default = boomMiddleware;

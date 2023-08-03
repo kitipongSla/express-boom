@@ -7,13 +7,13 @@ declare module 'express' {
   }
 }
 
-interface BoomFunctions {
+export interface BoomFunctions {
   [key: string]: Function;
 }
 
 const helperMethods = ['wrap', 'create'];
 
-function boomMiddleware() {
+export function boomMiddleware() {
   return function (req: Request, res: Response, next: NextFunction) {
     if (res.boom) throw new Error('boom already exists on response object');
 
