@@ -1,4 +1,4 @@
-# express-boom
+# express-boom-typescript
 
 ## Install
 
