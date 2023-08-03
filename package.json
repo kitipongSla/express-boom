@@ -28,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kitipongSla/express-boom.git"
+    "url": "git://github.com/kitipongSla/express-boom-typescript.git"
   }
 }
