@@ -10,7 +10,7 @@ npm install
 
 ```ts
 import express, { Request, Response, NextFunction, RequestHandler } from 'express';
-import boomMiddleware from '../index';
+import boomMiddleware from 'express-boom';
 
 const app = express();
 
