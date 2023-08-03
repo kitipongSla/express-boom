@@ -3,7 +3,7 @@
 ## Install
 
 ```
-npm install 
+npm install express-boom-typescript
 ```
 
 ## Usage
